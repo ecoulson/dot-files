@@ -35,7 +35,6 @@ vim.keymap.set('n', '<leader>s',
 vim.keymap.set('n', '<leader>x', '<cmd>!chmod +x %<CR>', {silent = true})
 
 vim.keymap.set('i', 'jk', '<Esc>')
-vim.keymap.set('v', 'jk', '<Esc>')
 
 -- Cargo keymaps -- 
 vim.keymap.set('n', '<C-space>', function ()
